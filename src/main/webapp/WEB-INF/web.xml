@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Home</servlet-name>
+  	<display-name>Home</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.Home</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Addcontact</servlet-name>
+  	<display-name>Addcontact</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.Addcontact</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewContact</servlet-name>
+  	<display-name>ViewContact</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.ViewContact</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Delete</servlet-name>
+  	<display-name>Delete</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.Delete</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Update</servlet-name>
+  	<display-name>Update</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.Update</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>updateservlet</servlet-name>
+  	<display-name>updateservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.updateservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Home</servlet-name>
+  	<url-pattern>/Home</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Addcontact</servlet-name>
+  	<url-pattern>/Addcontact</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewContact</servlet-name>
+  	<url-pattern>/ViewContact</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Delete</servlet-name>
+  	<url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Update</servlet-name>
+  	<url-pattern>/Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>updateservlet</servlet-name>
+  	<url-pattern>/updateservlet</url-pattern>
+  </servlet-mapping>
+</web-app>

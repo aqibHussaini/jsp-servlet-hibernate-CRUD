@@ -1,0 +1,36 @@
+*
+{
+	padding:0px;
+	margin:0px;
+}
+.bg-color
+{
+	background: #2196f3!important;
+}
+.header
+{
+	height: 92vh;
+	width: 100%;
+	background-image: linear-gradient(270deg,rgba(0,0,0,0.6),rgba(0,0,0,.9)),url('https://images.pexels.com/photos/3781524/pexels-photo-3781524.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment: fixed; 
+}
+.my_fonts
+{
+font-family: 'Noto Sans HK', sans-serif;
+}
+.h-100 {
+	height: 100%;
+	width: 100%;
+	
+}
+.bg-form-page
+{
+	height: 92vh;
+	width: 100%;
+	background-image: url('https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment: fixed; 
+}
