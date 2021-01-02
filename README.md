@@ -1,0 +1,1 @@
+# jsp-servlet-hibernate-CRUD This is a simple 4 pages CRUD applocation.It persomrs all Crud operations for contact.To run this project just add username password of your database and add files properly.
